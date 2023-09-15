@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetpackSelector.Plugin", "JetpackSelector.Plugin\JetpackSelector.Plugin.csproj", "{2CC04048-2C44-479E-B796-C18286419E27}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JetpackSelector.Mod", "JetpackSelector.Mod\JetpackSelector.Mod.shproj", "{C7615B7A-D457-4765-B346-491EFE45B199}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC04048-2C44-479E-B796-C18286419E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC04048-2C44-479E-B796-C18286419E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC04048-2C44-479E-B796-C18286419E27}.Debug|x64.ActiveCfg = Debug|x64
+		{2CC04048-2C44-479E-B796-C18286419E27}.Debug|x64.Build.0 = Debug|x64
+		{2CC04048-2C44-479E-B796-C18286419E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC04048-2C44-479E-B796-C18286419E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC04048-2C44-479E-B796-C18286419E27}.Release|x64.ActiveCfg = Release|x64
+		{2CC04048-2C44-479E-B796-C18286419E27}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5BB0842-6F57-409C-AD8F-B342106B328B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JetpackSelector.Mod\JetpackSelector.Mod.projitems*{2cc04048-2c44-479e-b796-c18286419e27}*SharedItemsImports = 4
+		JetpackSelector.Mod\JetpackSelector.Mod.projitems*{c7615b7a-d457-4765-b346-491efe45b199}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
